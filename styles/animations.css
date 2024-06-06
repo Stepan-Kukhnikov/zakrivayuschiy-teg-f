@@ -53,7 +53,6 @@
 
 .card__like-button:hover {
   fill: var(--text-color);
-  transition-delay: 0.5s;
   transition: fill 0.3s linear;
 }
 
