@@ -16,6 +16,8 @@
         --difference-background-color: #fff;
         --difference-text-color: #fff;
         --contour-color: #000;
+        --slim-font-weight: 400;
+        --bold-font-weight: 700;
     }
 }
 
@@ -28,6 +30,8 @@
     --difference-background-color: #fff;
     --difference-text-color: #fff;
     --contour-color: #000;
+    --slim-font-weight: 400;
+    --bold-font-weight: 700;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,6 +44,8 @@
         --difference-background-color: #00CC14;
         --difference-text-color: #00CC14;
         --contour-color: #00CC14;
+        --slim-font-weight: 465;
+        --bold-font-weight: 785;
     }
 }
 
@@ -52,4 +58,6 @@
     --difference-background-color: #00CC14;
     --difference-text-color: #00CC14;
     --contour-color: #00CC14;
+    --slim-font-weight: 465;
+    --bold-font-weight: 785;
 }
