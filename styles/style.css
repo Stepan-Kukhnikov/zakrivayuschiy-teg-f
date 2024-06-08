@@ -169,11 +169,11 @@
   opacity: 0.5;
 }
 
-@supports ((text-stroke: 1px var(--background-color)) or
-  (-webkit-text-stroke: 1px var(--background-color))) {
-    .card-image-label {
+@supports (-webkit-text-stroke: 1px var(--background-color)) or (text-stroke: 1px var(--background-color)) {
+  .card-img-label {
       text-shadow: none;
       -webkit-text-stroke: 1px var(--background-color);
+      text-stroke: 1px var(--background-color);
   }
 }
 
